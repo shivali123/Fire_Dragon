@@ -10,7 +10,7 @@ const styles = StyleSheet.create({
     width: Dimensions.get('window').width,
     height: Dimensions.get('window').height,
     position:'absolute',
-    paddingBottom:100
+    // paddingBottom:100
     // padding:20
   },
   icon:{
@@ -60,8 +60,8 @@ const styles = StyleSheet.create({
     padding:6
   },
   grid: {
-    width:Dimensions.get('window').width/2 - 10,
-    height:Dimensions.get('window').width/1.2,
+    // width:Dimensions.get('window').width/2 - 10,
+    // height:Dimensions.get('window').width/1.2,
     backgroundColor:'#121212',
     padding:10,
     borderRadius:6,

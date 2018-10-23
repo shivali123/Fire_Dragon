@@ -8,6 +8,7 @@ import { FloatingAction } from 'react-native-floating-action';
 import Modal from "react-native-modal";
 import { Dropdown } from 'react-native-material-dropdown';
 var obj;
+import { url } from '../../style/base';
 import CountDown from 'react-native-countdown-component';
 import Pie from 'react-native-pie'
 import Timer from '../components/timer';
@@ -52,7 +53,7 @@ export default class Task extends Component<Props> {
     AsyncStorage.getItem('email',(err, result) => {
         if(result != undefined){
           this.setState({email :result})
-          var basepath = 'http://192.168.1.63:3000/task/'+result
+          var basepath = url.staging + 'task/'+result
           fetch(basepath, {
             timeout:60000,
             method: "GET",
@@ -72,7 +73,7 @@ export default class Task extends Component<Props> {
           .catch((error) => {
               alert(error)
             })
-          var basepath = 'http://192.168.1.63:3000/task/complete/'+ this.state.email
+          var basepath = url.staging + 'task/complete/'+ this.state.email
             fetch(basepath, {
               timeout:60000,
               method: "GET",
@@ -96,7 +97,7 @@ export default class Task extends Component<Props> {
         }
       })
 
-   var basepath = 'http://192.168.1.63:3000/members'
+   var basepath = url.staging + 'members'
    fetch(basepath, {
      timeout:60000,
      method: "GET",
@@ -210,7 +211,7 @@ export default class Task extends Component<Props> {
       'message'     :this.state.message
      }
      // alert(JSON.stringify(data))
-     var basepath = 'http://192.168.1.63:3000/task'
+     var basepath = url.staging + 'task'
        fetch(basepath, {
        timeout:60000,
        method : "POST",
@@ -321,7 +322,7 @@ export default class Task extends Component<Props> {
       'captured'    :d
      }
      // alert(JSON.stringify(data))
-     var basepath = 'http://192.168.1.63:3000/task/'+task.res._id
+     var basepath = url.staging + 'task/'+task.res._id
        fetch(basepath, {
        timeout:60000,
        method : "PUT",

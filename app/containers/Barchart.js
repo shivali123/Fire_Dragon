@@ -100,9 +100,9 @@ export default class BarChart extends Component {
     let borderLeftWidth = 0;
     let paddingLeft = 20;
     let paddingRight = 20;
-    let backgroundColor = "white";
+    let backgroundColor = "#000";
     if(chart.selected == index){
-      backgroundColor = '#FAF9FA';
+      backgroundColor = '#000';
     }
 
     if(index != 0)
@@ -141,7 +141,7 @@ export default class BarChart extends Component {
 
     const bars = values[0].map((p, i) => {
       return (
-      <TouchableHighlight key={i} underlayColor='rgba(240,240,240,1)' onPressIn={() => this.props.onPressItem(i)} onPressOut={() => this.props.onPressItem(null)} style={[styles.barBoxButton]}>
+      <TouchableHighlight key={i} underlayColor='rgba(240,240,240,1)' onPressIn={() => this.props.onPressItem(i)} onPressOut={() => this.props.onPressItem(null)} style={[{top:60},styles.barBoxButton]}>
         <View style={[styles.barBoxContainer, this.styleContainer(i)]}>
           <View style={[styles.barBox,this.calcMin()]}>
             <View style={[styles.bar, styles.barPast,this.calcHeight(values[0][i])]} />

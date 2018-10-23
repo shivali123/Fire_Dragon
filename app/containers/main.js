@@ -6,7 +6,12 @@ import styles from '../../style/containers/main';
 import { FloatingAction } from 'react-native-floating-action';
 import Modal from "react-native-modal";
 import BarChart from './Barchart';
+import { url } from '../../style/base';
 import { Dropdown } from 'react-native-material-dropdown';
+import RNRestart from 'react-native-restart';
+var obj;
+import firebase from 'react-native-firebase';
+
 const actions = [{
     text: 'Create Task',
     icon: require('../images/floating.png'),
@@ -22,8 +27,12 @@ const actions = [{
 
 export default class Main extends Component<Props> {
   static navigationOptions = {
-      header:null
-    }
+    headerRight:<Text onPress={()=> obj.logout()}> Logout </Text>
+  }
+  logout =()=> {
+    AsyncStorage.clear()
+    RNRestart.Restart()
+  }
   constructor (props){
           super(props)
             this.state = {
@@ -32,6 +41,8 @@ export default class Main extends Component<Props> {
               email:'',
               task:'',
               message:'',
+              token:'',
+              tosend:'',
               chart :  {
                       values: [
                         [3,10, 20, 30, 40]
@@ -49,18 +60,35 @@ export default class Main extends Component<Props> {
     this.selectChart = this.selectChart.bind(this);
     }
   componentDidMount () {
+    firebase.messaging().getToken()
+    .then(fcmToken=>{
+      if(fcmToken){
+        this.setState({token:fcmToken})
+
+
+      }
+      else{
+
+      }
+    })
+    // AsyncStorage.getItem('token',(err, result) => {
+    //     if(result != undefined){
+    //       this.setState({token:result})
+    //     }
+    //   })
     AsyncStorage.getItem('email',(err, result) => {
         if(result != undefined){
           this.setState({email:result})
         }
       })
-    var basepath = 'http://192.168.43.31:3000/members'
+    var basepath = url.staging + 'members'
     fetch(basepath, {
       timeout:60000,
       method: "GET",
      })
      .then(response => response.json())
      .then(response => {
+       this.setState({tosend:response[response.length - 1].devicetoken})
        let copyEmail = []
        for(i=0;i<response.length;i++){
          if(response[i].email != null){
@@ -76,6 +104,32 @@ export default class Main extends Component<Props> {
          alert(error)
        })
     }
+  notification =()=>{
+    alert(this.state.tosend)
+    return
+    obj = {
+      "to": this.state.tosend,
+      "notification" : {
+          "body" : "Body of Your Notification",
+          "title": "Notification"
+        }
+    }
+    let basepath = 'https://fcm.googleapis.com/fcm/send'
+    fetch(basepath, {
+      timeout:60000,
+      method: "POST",
+      headers: {'Content-Type': 'application/json','Authorization' : 'key=AIzaSyDONON_q2nH5hnQM0UGOLBzIUJa6fDt0ms'},
+      body: JSON.stringify(obj)
+    })
+    .then(response => response.json())
+    .then(response => {
+        alert(JSON.stringify(response))
+
+    })
+    .catch((error) => {
+        alert(error)
+      })
+  }
   createTask = () => {
       let priority = [{
         value: 'URGENT',
@@ -162,7 +216,7 @@ export default class Main extends Component<Props> {
         'status': 0
        }
        // alert(JSON.stringify(data))
-       var basepath = 'http://192.168.43.31:3000/task'
+       var basepath = url.staging + 'task'
          fetch(basepath, {
          timeout:60000,
          method : "POST",
@@ -171,16 +225,17 @@ export default class Main extends Component<Props> {
          })
         .then(response => response.json())
         .then(response => {
-          alert(JSON.stringify(response))
+
+           alert(JSON.stringify(response))
             })
       .catch((error) => {
           alert(error)
         })
     }
-  selectChart(index) {
-    let chart = this.state.chart;
-    chart["selected"] = index;
-    this.setState({chart:chart});
+   selectChart(index) {
+     let chart = this.state.chart;
+     chart["selected"] = index;
+     this.setState({chart:chart});
   }
   removeSelected(){
     let chart = this.state.chart;
@@ -189,19 +244,23 @@ export default class Main extends Component<Props> {
   }
 
   render() {
+    obj=this;
     const data = [ 50, 10, 40, 95, -4, -24, 85, 91, 35, 53, -53, 24, 50, -20, -80 ]
-
     return (
       <ImageBackground source={require('../images/background.jpg')}
       style={styles.container}>
-      <BarChart selected={this.state.barSelected} onPressItem={this.selectChart} height={180} chart={this.state.chart} />
-
+      <BarChart selected={this.state.barSelected} onPressItem={this.selectChart} height={100} chart={this.state.chart} />
+        <View style={styles.top}>
         <TouchableOpacity style={styles.todo} onPress={()=>this.props.navigation.navigate('Todo')}>
           <Text style={styles.title}> To-do </Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.todo} onPress={()=>this.props.navigation.navigate('Toget')}>
           <Text style={styles.title}> To-get </Text>
         </TouchableOpacity>
+        <TouchableOpacity style={styles.todo} onPress={()=>this.notification()}>
+          <Text style={styles.title}> get notification </Text>
+        </TouchableOpacity>
+      </View>
         <FloatingAction
                 actions={actions}
                 onPressItem={

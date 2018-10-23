@@ -4,15 +4,13 @@ import React, {Component} from 'react';
 import {Platform,TextInput,AsyncStorage, StyleSheet,ListView, Text, View,TouchableOpacity} from 'react-native';
 var ds = new ListView.DataSource({ rowHasChanged: (row1, row2) => row1 !== row2 })
 var obj;
+import { url } from '../../style/base';
 
 export default class Login extends Component<Props> {
   static navigationOptions = ({ navigation }) => ({
       headerTitle:"LOGIN",
       headerStyle: {backgroundColor: '#39373c'},
-      headerTintColor: 'white',
-      headerRight: <TouchableOpacity onPress={()=>obj.logout()}>
-                        <Text style={{margin:10,color:'white'}}>LOGOUT </Text>
-                  </TouchableOpacity>
+      headerTintColor: 'white'
     })
   constructor (props){
         super(props)
@@ -35,7 +33,7 @@ export default class Login extends Component<Props> {
      alert("Please enter all details")
      return
    }
-   var basepath = 'http://192.168.1.63:3000/login/'+this.state.email
+   var basepath = url.staging + 'login/'+this.state.email
 
    fetch(basepath, {
      timeout:60000,
@@ -43,7 +41,7 @@ export default class Login extends Component<Props> {
    })
    .then(response => response.json())
    .then(response => {
-
+      
        if(response[0].password == this.state.verify){
          alert("login successfull")
          AsyncStorage.setItem('email',response[0].email)

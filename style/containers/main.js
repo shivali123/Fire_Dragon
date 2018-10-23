@@ -20,6 +20,9 @@ const styles = StyleSheet.create({
     color: '#ffffff',
     fontSize: 20,
     fontWeight: 'bold'
+  },
+  top: {
+    top: Dimensions.get('window').height/2 - 160
   }
 });
   module.exports = styles;

@@ -13,6 +13,7 @@ import {
 const Dimensions = require('Dimensions');
 import styles from '../../style/containers/todo';
 const data =[]
+import { url } from '../../style/base';
 import GridView from "react-native-easy-grid-view";
 var ds = new GridView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
 import CountDown from 'react-native-countdown-component';
@@ -41,7 +42,7 @@ export default class Todo extends Component<Props> {
      AsyncStorage.getItem('email',(err, result) => {
          if(result != undefined){
            this.setState({email :result})
-           var basepath = 'http://192.168.43.31:3000/task/complete/'+result
+           var basepath = url.staging + 'task/complete/'+result
            fetch(basepath, {
              timeout:60000,
              method: "GET",
@@ -123,7 +124,7 @@ export default class Todo extends Component<Props> {
        'progress'    :t,
        'captured'    :d
       }
-      var basepath = 'http://192.168.43.31:3000/task/'+task.res._id
+      var basepath = url.staging + 'task/'+task.res._id
         fetch(basepath, {
         timeout:60000,
         method : "PUT",
@@ -180,7 +181,7 @@ export default class Todo extends Component<Props> {
           <GridView dataSource={this.state.dataSource}
                       spacing={10}
                       enableEmptySections={true}
-                      style={{padding:1}}
+                      style={{flex:1,marginTop:60,marginBottom:60}}
                       renderCell={this._renderCell.bind(this)}
 
             />

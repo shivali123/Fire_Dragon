@@ -3,12 +3,17 @@ package com.task;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.avishayil.rnrestart.ReactNativeRestartPackage;
+import com.learnium.RNDeviceInfo.RNDeviceInfo;
+import io.invertase.firebase.RNFirebasePackage;
+import com.dieam.reactnativepushnotification.ReactNativePushNotificationPackage;
 import com.BV.LinearGradient.LinearGradientPackage;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
 import com.facebook.soloader.SoLoader;
-
+import io.invertase.firebase.messaging.RNFirebaseMessagingPackage;
+import io.invertase.firebase.notifications.RNFirebaseNotificationsPackage;
 import java.util.Arrays;
 import java.util.List;
 
@@ -24,7 +29,13 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
             new MainReactPackage(),
-            new LinearGradientPackage()
+            new ReactNativeRestartPackage(),
+            new RNDeviceInfo(),
+            new RNFirebasePackage(),
+            new ReactNativePushNotificationPackage(),
+            new LinearGradientPackage(),
+            new RNFirebaseMessagingPackage(),
+            new RNFirebaseNotificationsPackage()
       );
     }
 

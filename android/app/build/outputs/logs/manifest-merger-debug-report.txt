@@ -1,130 +1,591 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:1:1-26:12
+ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:1:1-39:12
+INJECTED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:1:1-39:12
+INJECTED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:1:1-39:12
+INJECTED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:1:1-39:12
+MERGED from [:react-native-restart] /home/shivali/Documents/task/node_modules/react-native-restart/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-device-info] /home/shivali/Documents/task/node_modules/react-native-device-info/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-22:12
+MERGED from [:react-native-firebase] /home/shivali/Documents/task/node_modules/react-native-firebase/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:react-native-linear-gradient] /home/shivali/Documents/task/node_modules/react-native-linear-gradient/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-push-notification] /home/shivali/Documents/task/node_modules/react-native-push-notification/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-svg] /home/shivali/Documents/task/node_modules/react-native-svg/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.react:react-native:0.56.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/react-native-0.56.0.aar/7c2dac1a4ca6a918c8581ed78a446646/AndroidManifest.xml:2:1-15:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/b54921a506d8765e6439e3cbc77fed8f/AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.firebase:firebase-core:16.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.4.aar/12746ce3c798e5dbf5a522359f6a9e6a/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/245deb43dc8f0b82eeb5833f743485fc/AndroidManifest.xml:17:1-37:12
+MERGED from [me.leolin:ShortcutBadger:1.1.21] /home/shivali/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/3ba1f5132b900b4f6bef2636fac45d69/AndroidManifest.xml:2:1-52:12
+MERGED from [com.google.android.gms:play-services-gcm:16.0.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/play-services-gcm-16.0.0.aar/3a76d8213a5cb780021217b330162b08/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-iid:16.0.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/play-services-iid-16.0.0.aar/2ffebf7f5d822898dea5379bbbdba7fb/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/2b7ac18a5db8d6c4c88c892d809faf40/AndroidManifest.xml:17:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/6ab889da7bf625ee4575a424a4266ca6/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.2] /home/shivali/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.0.2.aar/7e7e83a8da22ca83a66a462bc591d802/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.2.aar/db481d96a779703207a6c4ef1ac20848/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/ce54659f633b59f18fe5de02ab62ff62/AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/decba2b345db825ba93eff1267f09597/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/shivali/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/4c53bd68c63c2a8c78a52633ed0bee5a/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/f1c739ce982e70cf12f9ea4c604339a5/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/shivali/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/687ec9172f24282eac792486b6323864/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/shivali/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/4c74cad443cd39ea6a21b94e831dcdea/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/872b3ebd2607229ba7ff49c4c0813cac/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/e4b606009091bb0b643fcb303220c3f7/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/shivali/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/55307ff04a2efb4e7acc692d37129ead/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/834af1b61dca0e4f201de686afe1a0f4/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:multidex:1.0.2] /home/shivali/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/5562be518a6a90ed271202eab3875ab1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/926d16f3bfddb8b12ca58c89090fa936/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/987e436d0fc841a794d66d00f9dee3fc/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/fc5734cde35cc607840341e160b522e5/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/dc52b3a51e1c1e7a61940f80789c1daf/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/ffda422f934495a44edf1db3f680cc92/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/2e560349ade5e34bcc5b97a7cd7967c7/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/e35807587714778c5c16d75d7bab62be/AndroidManifest.xml:17:1-31:12
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/8e66993f4c7b4a99cc320762f83b5e6d/AndroidManifest.xml:10:1-18:12
+MERGED from [com.facebook.fresco:fresco:1.9.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/fresco-1.9.0.aar/8cfa6539cea3f8cf146280b1c7a6b6fc/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.9.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.9.0.aar/f63be2372dd0bfeffc0c88dc1218291d/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:1.9.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/drawee-1.9.0.aar/b7a7b2aba92909121d5f421a69c449c5/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.9.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.9.0.aar/3ba5a78bd6eb3e39f1858be601b0f0df/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.9.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.9.0.aar/601911f99abe927abfa6f4f851a4be3c/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.3.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/soloader-0.3.0.aar/f97f20e3e5f5e6aaa164d60ea07d353f/AndroidManifest.xml:2:1-13:12
+MERGED from [org.webkit:android-jsc:r174650] /home/shivali/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/6ec396a6e3311de9926f3d5f2a5822d3/AndroidManifest.xml:1:1-3:12
+MERGED from [com.facebook.fresco:fbcore:1.9.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/fbcore-1.9.0.aar/da09cea09c4dd6e830dd80c18ad9d31e/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /home/shivali/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.3.aar/28898be53d1e18e69deaa0d281a9f80c/AndroidManifest.xml:2:1-9:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/4c7cf9aa0e64867e897a36691ecd3890/AndroidManifest.xml:17:1-30:12
+INJECTED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:1:1-39:12
+INJECTED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:1:1-39:12
+INJECTED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:1:1-39:12
 	package
 		ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:2:5-23
 		INJECTED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml
 		INJECTED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:1:1-39:12
+		INJECTED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:1:1-39:12
 		INJECTED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:1:11-69
-	android:versionCode
-		INJECTED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
 ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [:react-native-firebase] /home/shivali/Documents/task/node_modules/react-native-firebase/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-67
+MERGED from [:react-native-firebase] /home/shivali/Documents/task/node_modules/react-native-firebase/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-gcm:16.0.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/play-services-gcm-16.0.0.aar/3a76d8213a5cb780021217b330162b08/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-gcm:16.0.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/play-services-gcm-16.0.0.aar/3a76d8213a5cb780021217b330162b08/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:16.0.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/play-services-iid-16.0.0.aar/2ffebf7f5d822898dea5379bbbdba7fb/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:16.0.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/play-services-iid-16.0.0.aar/2ffebf7f5d822898dea5379bbbdba7fb/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/2b7ac18a5db8d6c4c88c892d809faf40/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/2b7ac18a5db8d6c4c88c892d809faf40/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/6ab889da7bf625ee4575a424a4266ca6/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/6ab889da7bf625ee4575a424a4266ca6/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.2.aar/db481d96a779703207a6c4ef1ac20848/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.2.aar/db481d96a779703207a6c4ef1ac20848/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/ce54659f633b59f18fe5de02ab62ff62/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/ce54659f633b59f18fe5de02ab62ff62/AndroidManifest.xml:23:5-67
 	android:name
 		ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:4:22-64
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
 ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:5:5-77
-MERGED from [com.facebook.react:react-native:0.56.0] /home/shivali/.android/build-cache/db945952468cd71e17058b62ed890c887fdb6612/output/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.56.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/react-native-0.56.0.aar/7c2dac1a4ca6a918c8581ed78a446646/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.56.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/react-native-0.56.0.aar/7c2dac1a4ca6a918c8581ed78a446646/AndroidManifest.xml:11:5-78
 	android:name
 		ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:5:22-75
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:6:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:7:5-66
+	android:name
+		ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:7:22-63
 application
-ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:7:5-24:19
-MERGED from [com.facebook.react:react-native:0.56.0] /home/shivali/.android/build-cache/db945952468cd71e17058b62ed890c887fdb6612/output/AndroidManifest.xml:13:5-20
-MERGED from [com.android.support:appcompat-v7:26.1.0] /home/shivali/.android/build-cache/4fc556bc855815358a5b1228d9ac3ee4727c5d33/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-v4:26.1.0] /home/shivali/.android/build-cache/9a35bcc0e6eb172429a21a4b1c0af05787535c5e/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/shivali/.android/build-cache/7989725b467d883c92f408e1877abf06b515d7fd/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.1.0] /home/shivali/.android/build-cache/9be971d209619b579cbed7ba968825bb68235058/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] /home/shivali/.android/build-cache/47cdea0217b0cb279a0df96a95d603a4cae2d3bf/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/shivali/.android/build-cache/200843dd8058cc3704b08b270fc7b94d1ed40761/output/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/shivali/.android/build-cache/1489973c664b980684665dcd57fbb66994512c35/output/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-core-ui:26.1.0] /home/shivali/.android/build-cache/dac5e9633560efc237d9c16d6595cc8aad91a966/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.1.0] /home/shivali/.android/build-cache/436cddb728b6eb93a2ce7a79624168b333a1aa1f/output/AndroidManifest.xml:25:5-29:19
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/shivali/.android/build-cache/3b5373c82f1c96ada3b1766105ed3bddf1e545ea/output/AndroidManifest.xml:24:5-28:19
-MERGED from [com.facebook.soloader:soloader:0.3.0] /home/shivali/.android/build-cache/614092e0d57cd031482148a7dd0c5828b9e47181/output/AndroidManifest.xml:11:5-20
-MERGED from [org.webkit:android-jsc:r174650] /home/shivali/.android/build-cache/f06931cd1ddafdafb79c1f2953d1d06222c6bf5e/output/AndroidManifest.xml:2:3-17
+ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:9:5-38:19
+MERGED from [:react-native-device-info] /home/shivali/Documents/task/node_modules/react-native-device-info/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-20:19
+MERGED from [:react-native-device-info] /home/shivali/Documents/task/node_modules/react-native-device-info/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-20:19
+MERGED from [com.facebook.react:react-native:0.56.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/react-native-0.56.0.aar/7c2dac1a4ca6a918c8581ed78a446646/AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.56.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/react-native-0.56.0.aar/7c2dac1a4ca6a918c8581ed78a446646/AndroidManifest.xml:13:5-20
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/b54921a506d8765e6439e3cbc77fed8f/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/b54921a506d8765e6439e3cbc77fed8f/AndroidManifest.xml:25:5-29:19
+MERGED from [com.google.firebase:firebase-core:16.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.4.aar/12746ce3c798e5dbf5a522359f6a9e6a/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.4.aar/12746ce3c798e5dbf5a522359f6a9e6a/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/245deb43dc8f0b82eeb5833f743485fc/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/245deb43dc8f0b82eeb5833f743485fc/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.android.gms:play-services-gcm:16.0.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/play-services-gcm-16.0.0.aar/3a76d8213a5cb780021217b330162b08/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-gcm:16.0.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/play-services-gcm-16.0.0.aar/3a76d8213a5cb780021217b330162b08/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-iid:16.0.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/play-services-iid-16.0.0.aar/2ffebf7f5d822898dea5379bbbdba7fb/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-iid:16.0.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/play-services-iid-16.0.0.aar/2ffebf7f5d822898dea5379bbbdba7fb/AndroidManifest.xml:26:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/2b7ac18a5db8d6c4c88c892d809faf40/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/2b7ac18a5db8d6c4c88c892d809faf40/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/6ab889da7bf625ee4575a424a4266ca6/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/6ab889da7bf625ee4575a424a4266ca6/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.2] /home/shivali/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.0.2.aar/7e7e83a8da22ca83a66a462bc591d802/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.2] /home/shivali/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.0.2.aar/7e7e83a8da22ca83a66a462bc591d802/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.2.aar/db481d96a779703207a6c4ef1ac20848/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.2.aar/db481d96a779703207a6c4ef1ac20848/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/ce54659f633b59f18fe5de02ab62ff62/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/ce54659f633b59f18fe5de02ab62ff62/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/decba2b345db825ba93eff1267f09597/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/decba2b345db825ba93eff1267f09597/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/shivali/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/4c53bd68c63c2a8c78a52633ed0bee5a/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/shivali/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/4c53bd68c63c2a8c78a52633ed0bee5a/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/f1c739ce982e70cf12f9ea4c604339a5/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/f1c739ce982e70cf12f9ea4c604339a5/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/shivali/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/687ec9172f24282eac792486b6323864/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/shivali/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/687ec9172f24282eac792486b6323864/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/shivali/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/4c74cad443cd39ea6a21b94e831dcdea/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/shivali/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/4c74cad443cd39ea6a21b94e831dcdea/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/872b3ebd2607229ba7ff49c4c0813cac/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/872b3ebd2607229ba7ff49c4c0813cac/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/e4b606009091bb0b643fcb303220c3f7/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/e4b606009091bb0b643fcb303220c3f7/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/shivali/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/55307ff04a2efb4e7acc692d37129ead/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/shivali/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/55307ff04a2efb4e7acc692d37129ead/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/834af1b61dca0e4f201de686afe1a0f4/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/834af1b61dca0e4f201de686afe1a0f4/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/926d16f3bfddb8b12ca58c89090fa936/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/926d16f3bfddb8b12ca58c89090fa936/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/987e436d0fc841a794d66d00f9dee3fc/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/987e436d0fc841a794d66d00f9dee3fc/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/fc5734cde35cc607840341e160b522e5/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/fc5734cde35cc607840341e160b522e5/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/dc52b3a51e1c1e7a61940f80789c1daf/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/dc52b3a51e1c1e7a61940f80789c1daf/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/ffda422f934495a44edf1db3f680cc92/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/ffda422f934495a44edf1db3f680cc92/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/2e560349ade5e34bcc5b97a7cd7967c7/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/2e560349ade5e34bcc5b97a7cd7967c7/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/e35807587714778c5c16d75d7bab62be/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/e35807587714778c5c16d75d7bab62be/AndroidManifest.xml:25:5-29:19
+MERGED from [com.facebook.soloader:soloader:0.3.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/soloader-0.3.0.aar/f97f20e3e5f5e6aaa164d60ea07d353f/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.3.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/soloader-0.3.0.aar/f97f20e3e5f5e6aaa164d60ea07d353f/AndroidManifest.xml:11:5-20
+MERGED from [org.webkit:android-jsc:r174650] /home/shivali/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/6ec396a6e3311de9926f3d5f2a5822d3/AndroidManifest.xml:2:3-17
+MERGED from [org.webkit:android-jsc:r174650] /home/shivali/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/6ec396a6e3311de9926f3d5f2a5822d3/AndroidManifest.xml:2:3-17
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /home/shivali/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.3.aar/28898be53d1e18e69deaa0d281a9f80c/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /home/shivali/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.3.aar/28898be53d1e18e69deaa0d281a9f80c/AndroidManifest.xml:7:5-20
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/4c7cf9aa0e64867e897a36691ecd3890/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/4c7cf9aa0e64867e897a36691ecd3890/AndroidManifest.xml:24:5-28:19
 	android:label
-		ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:9:7-39
-	android:allowBackup
-		ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:11:7-34
+		ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:11:7-39
 	android:icon
-		ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:10:7-41
+		ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:12:7-41
+	android:allowBackup
+		ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:13:7-34
 	android:theme
-		ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:12:7-38
+		ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:14:7-38
 	android:name
-		ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:8:7-38
+		ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:10:7-38
 activity#com.task.MainActivity
-ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:13:7-22:18
+ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:15:7-25:18
 	android:label
-		ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:15:9-41
+		ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:17:9-41
+	android:launchMode
+		ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:20:9-39
 	android:windowSoftInputMode
-		ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:17:9-51
+		ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:19:9-51
 	android:configChanges
-		ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:16:9-79
+		ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:18:9-79
 	android:name
-		ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:14:9-37
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:18:9-21:25
+		ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:16:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:21:9-24:25
 action#android.intent.action.MAIN
-ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:19:13-65
+ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:22:13-65
 	android:name
-		ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:19:21-62
+		ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:22:21-62
 category#android.intent.category.LAUNCHER
-ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:20:13-73
+ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:23:13-73
 	android:name
-		ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:20:23-70
+		ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:23:23-70
 activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:23:7-84
+ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:26:7-84
 	android:name
-		ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:23:17-81
+		ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:26:17-81
+service#io.invertase.firebase.messaging.RNFirebaseMessagingService
+ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:27:7-31:16
+	android:name
+		ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:27:16-89
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:28:10-30:26
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:29:14-75
+	android:name
+		ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:29:22-72
+service#io.invertase.firebase.messaging.RNFirebaseInstanceIdService
+ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:32:6-36:16
+	android:name
+		ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:32:15-89
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:33:10-35:26
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:34:14-76
+	android:name
+		ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:34:22-74
+service#io.invertase.firebase.messaging.RNFirebaseBackgroundMessagingService
+ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:37:6-101
+	android:name
+		ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:37:15-98
 uses-sdk
 INJECTED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [task:react-native-svg:unspecified] /home/shivali/Documents/task/node_modules/react-native-svg/android/build/intermediates/bundles/default/AndroidManifest.xml:5:5-7:41
-MERGED from [task:react-native-linear-gradient:unspecified] /home/shivali/Documents/task/node_modules/react-native-linear-gradient/android/build/intermediates/bundles/default/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.56.0] /home/shivali/.android/build-cache/db945952468cd71e17058b62ed890c887fdb6612/output/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:26.1.0] /home/shivali/.android/build-cache/4fc556bc855815358a5b1228d9ac3ee4727c5d33/output/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:26.1.0] /home/shivali/.android/build-cache/9a35bcc0e6eb172429a21a4b1c0af05787535c5e/output/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/shivali/.android/build-cache/7989725b467d883c92f408e1877abf06b515d7fd/output/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-fragment:26.1.0] /home/shivali/.android/build-cache/9be971d209619b579cbed7ba968825bb68235058/output/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-utils:26.1.0] /home/shivali/.android/build-cache/47cdea0217b0cb279a0df96a95d603a4cae2d3bf/output/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/shivali/.android/build-cache/200843dd8058cc3704b08b270fc7b94d1ed40761/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/shivali/.android/build-cache/1489973c664b980684665dcd57fbb66994512c35/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:26.1.0] /home/shivali/.android/build-cache/dac5e9633560efc237d9c16d6595cc8aad91a966/output/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.1.0] /home/shivali/.android/build-cache/436cddb728b6eb93a2ce7a79624168b333a1aa1f/output/AndroidManifest.xml:21:5-23:58
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/shivali/.android/build-cache/3b5373c82f1c96ada3b1766105ed3bddf1e545ea/output/AndroidManifest.xml:20:5-22:41
-MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /home/shivali/.android/build-cache/9a5140fc7b435c545736a7563c94b23ad87a73f6/output/AndroidManifest.xml:14:5-16:41
-MERGED from [com.facebook.fresco:fresco:1.9.0] /home/shivali/.android/build-cache/0ee2c262be9dfae4f21b143a44944fb746483399/output/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:1.9.0] /home/shivali/.android/build-cache/0ba0f721cc2103908366b9409033de2f9dcbf608/output/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.9.0] /home/shivali/.android/build-cache/e128631abcb15d283562b046c9aff483fa04b662/output/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:1.9.0] /home/shivali/.android/build-cache/172a57daf47f2761e4a9c4084e642f5f50497329/output/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:1.9.0] /home/shivali/.android/build-cache/b3f30a74ad3270a53d4e72e49197301d8213e022/output/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:1.9.0] /home/shivali/.android/build-cache/fe93037428669cc8d8a5de4f77427dfbac7d278d/output/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.soloader:soloader:0.3.0] /home/shivali/.android/build-cache/614092e0d57cd031482148a7dd0c5828b9e47181/output/AndroidManifest.xml:7:5-9:41
+INJECTED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-restart] /home/shivali/Documents/task/node_modules/react-native-restart/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-restart] /home/shivali/Documents/task/node_modules/react-native-restart/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-device-info] /home/shivali/Documents/task/node_modules/react-native-device-info/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-device-info] /home/shivali/Documents/task/node_modules/react-native-device-info/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-firebase] /home/shivali/Documents/task/node_modules/react-native-firebase/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-firebase] /home/shivali/Documents/task/node_modules/react-native-firebase/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-linear-gradient] /home/shivali/Documents/task/node_modules/react-native-linear-gradient/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-linear-gradient] /home/shivali/Documents/task/node_modules/react-native-linear-gradient/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-push-notification] /home/shivali/Documents/task/node_modules/react-native-push-notification/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-push-notification] /home/shivali/Documents/task/node_modules/react-native-push-notification/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-svg] /home/shivali/Documents/task/node_modules/react-native-svg/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-svg] /home/shivali/Documents/task/node_modules/react-native-svg/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.react:react-native:0.56.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/react-native-0.56.0.aar/7c2dac1a4ca6a918c8581ed78a446646/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.56.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/react-native-0.56.0.aar/7c2dac1a4ca6a918c8581ed78a446646/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/b54921a506d8765e6439e3cbc77fed8f/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/b54921a506d8765e6439e3cbc77fed8f/AndroidManifest.xml:21:5-23:78
+MERGED from [com.google.firebase:firebase-core:16.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.4.aar/12746ce3c798e5dbf5a522359f6a9e6a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.4.aar/12746ce3c798e5dbf5a522359f6a9e6a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/245deb43dc8f0b82eeb5833f743485fc/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/245deb43dc8f0b82eeb5833f743485fc/AndroidManifest.xml:20:5-44
+MERGED from [me.leolin:ShortcutBadger:1.1.21] /home/shivali/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/3ba1f5132b900b4f6bef2636fac45d69/AndroidManifest.xml:7:5-9:41
+MERGED from [me.leolin:ShortcutBadger:1.1.21] /home/shivali/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/3ba1f5132b900b4f6bef2636fac45d69/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-gcm:16.0.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/play-services-gcm-16.0.0.aar/3a76d8213a5cb780021217b330162b08/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gcm:16.0.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/play-services-gcm-16.0.0.aar/3a76d8213a5cb780021217b330162b08/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:16.0.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/play-services-iid-16.0.0.aar/2ffebf7f5d822898dea5379bbbdba7fb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:16.0.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/play-services-iid-16.0.0.aar/2ffebf7f5d822898dea5379bbbdba7fb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/2b7ac18a5db8d6c4c88c892d809faf40/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/2b7ac18a5db8d6c4c88c892d809faf40/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/6ab889da7bf625ee4575a424a4266ca6/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/6ab889da7bf625ee4575a424a4266ca6/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.2] /home/shivali/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.0.2.aar/7e7e83a8da22ca83a66a462bc591d802/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.2] /home/shivali/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.0.2.aar/7e7e83a8da22ca83a66a462bc591d802/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.2.aar/db481d96a779703207a6c4ef1ac20848/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.2.aar/db481d96a779703207a6c4ef1ac20848/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/ce54659f633b59f18fe5de02ab62ff62/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/ce54659f633b59f18fe5de02ab62ff62/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/decba2b345db825ba93eff1267f09597/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/decba2b345db825ba93eff1267f09597/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/shivali/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/4c53bd68c63c2a8c78a52633ed0bee5a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/shivali/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/4c53bd68c63c2a8c78a52633ed0bee5a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/f1c739ce982e70cf12f9ea4c604339a5/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/f1c739ce982e70cf12f9ea4c604339a5/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/shivali/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/687ec9172f24282eac792486b6323864/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/shivali/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/687ec9172f24282eac792486b6323864/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/shivali/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/4c74cad443cd39ea6a21b94e831dcdea/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/shivali/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/4c74cad443cd39ea6a21b94e831dcdea/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/872b3ebd2607229ba7ff49c4c0813cac/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/872b3ebd2607229ba7ff49c4c0813cac/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/e4b606009091bb0b643fcb303220c3f7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/e4b606009091bb0b643fcb303220c3f7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/shivali/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/55307ff04a2efb4e7acc692d37129ead/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/shivali/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/55307ff04a2efb4e7acc692d37129ead/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/834af1b61dca0e4f201de686afe1a0f4/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/834af1b61dca0e4f201de686afe1a0f4/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:multidex:1.0.2] /home/shivali/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/5562be518a6a90ed271202eab3875ab1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] /home/shivali/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/5562be518a6a90ed271202eab3875ab1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/926d16f3bfddb8b12ca58c89090fa936/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/926d16f3bfddb8b12ca58c89090fa936/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/987e436d0fc841a794d66d00f9dee3fc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/987e436d0fc841a794d66d00f9dee3fc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/fc5734cde35cc607840341e160b522e5/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/fc5734cde35cc607840341e160b522e5/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/dc52b3a51e1c1e7a61940f80789c1daf/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/dc52b3a51e1c1e7a61940f80789c1daf/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/ffda422f934495a44edf1db3f680cc92/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/ffda422f934495a44edf1db3f680cc92/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/2e560349ade5e34bcc5b97a7cd7967c7/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/2e560349ade5e34bcc5b97a7cd7967c7/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/e35807587714778c5c16d75d7bab62be/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/e35807587714778c5c16d75d7bab62be/AndroidManifest.xml:21:5-23:58
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/8e66993f4c7b4a99cc320762f83b5e6d/AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/8e66993f4c7b4a99cc320762f83b5e6d/AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fresco:fresco:1.9.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/fresco-1.9.0.aar/8cfa6539cea3f8cf146280b1c7a6b6fc/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.9.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/fresco-1.9.0.aar/8cfa6539cea3f8cf146280b1c7a6b6fc/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.9.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.9.0.aar/f63be2372dd0bfeffc0c88dc1218291d/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.9.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.9.0.aar/f63be2372dd0bfeffc0c88dc1218291d/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.9.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/drawee-1.9.0.aar/b7a7b2aba92909121d5f421a69c449c5/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.9.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/drawee-1.9.0.aar/b7a7b2aba92909121d5f421a69c449c5/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.9.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.9.0.aar/3ba5a78bd6eb3e39f1858be601b0f0df/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.9.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.9.0.aar/3ba5a78bd6eb3e39f1858be601b0f0df/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.9.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.9.0.aar/601911f99abe927abfa6f4f851a4be3c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.9.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.9.0.aar/601911f99abe927abfa6f4f851a4be3c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.3.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/soloader-0.3.0.aar/f97f20e3e5f5e6aaa164d60ea07d353f/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.3.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/soloader-0.3.0.aar/f97f20e3e5f5e6aaa164d60ea07d353f/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:fbcore:1.9.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/fbcore-1.9.0.aar/da09cea09c4dd6e830dd80c18ad9d31e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.9.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/fbcore-1.9.0.aar/da09cea09c4dd6e830dd80c18ad9d31e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /home/shivali/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.3.aar/28898be53d1e18e69deaa0d281a9f80c/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /home/shivali/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.3.aar/28898be53d1e18e69deaa0d281a9f80c/AndroidManifest.xml:5:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/4c7cf9aa0e64867e897a36691ecd3890/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/4c7cf9aa0e64867e897a36691ecd3890/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:26.1.0] /home/shivali/.android/build-cache/4fc556bc855815358a5b1228d9ac3ee4727c5d33/output/AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/b54921a506d8765e6439e3cbc77fed8f/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
 		INJECTED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml
 		INJECTED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml
 		INJECTED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml
+receiver#com.learnium.RNDeviceInfo.RNDeviceReceiver
+ADDED from [:react-native-device-info] /home/shivali/Documents/task/node_modules/react-native-device-info/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:9-19:20
+	android:enabled
+		ADDED from [:react-native-device-info] /home/shivali/Documents/task/node_modules/react-native-device-info/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:14:13-35
+	android:exported
+		ADDED from [:react-native-device-info] /home/shivali/Documents/task/node_modules/react-native-device-info/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:15:13-36
+	android:name
+		ADDED from [:react-native-device-info] /home/shivali/Documents/task/node_modules/react-native-device-info/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:13-70
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [:react-native-device-info] /home/shivali/Documents/task/node_modules/react-native-device-info/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:16:13-18:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [:react-native-device-info] /home/shivali/Documents/task/node_modules/react-native-device-info/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:17:17-79
+	android:name
+		ADDED from [:react-native-device-info] /home/shivali/Documents/task/node_modules/react-native-device-info/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:17:25-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:react-native-firebase] /home/shivali/Documents/task/node_modules/react-native-firebase/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:5-68
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/2b7ac18a5db8d6c4c88c892d809faf40/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/2b7ac18a5db8d6c4c88c892d809faf40/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/6ab889da7bf625ee4575a424a4266ca6/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/6ab889da7bf625ee4575a424a4266ca6/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.2.aar/db481d96a779703207a6c4ef1ac20848/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.2.aar/db481d96a779703207a6c4ef1ac20848/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/ce54659f633b59f18fe5de02ab62ff62/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/ce54659f633b59f18fe5de02ab62ff62/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [:react-native-firebase] /home/shivali/Documents/task/node_modules/react-native-firebase/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:react-native-firebase] /home/shivali/Documents/task/node_modules/react-native-firebase/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/2b7ac18a5db8d6c4c88c892d809faf40/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/2b7ac18a5db8d6c4c88c892d809faf40/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/6ab889da7bf625ee4575a424a4266ca6/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/6ab889da7bf625ee4575a424a4266ca6/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.2.aar/db481d96a779703207a6c4ef1ac20848/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.2.aar/db481d96a779703207a6c4ef1ac20848/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/ce54659f633b59f18fe5de02ab62ff62/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/ce54659f633b59f18fe5de02ab62ff62/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [:react-native-firebase] /home/shivali/Documents/task/node_modules/react-native-firebase/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:22-76
 meta-data#android.support.VERSION
-ADDED from [com.android.support:appcompat-v7:26.1.0] /home/shivali/.android/build-cache/4fc556bc855815358a5b1228d9ac3ee4727c5d33/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-v4:26.1.0] /home/shivali/.android/build-cache/9a35bcc0e6eb172429a21a4b1c0af05787535c5e/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/shivali/.android/build-cache/7989725b467d883c92f408e1877abf06b515d7fd/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.1.0] /home/shivali/.android/build-cache/9be971d209619b579cbed7ba968825bb68235058/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] /home/shivali/.android/build-cache/47cdea0217b0cb279a0df96a95d603a4cae2d3bf/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/shivali/.android/build-cache/200843dd8058cc3704b08b270fc7b94d1ed40761/output/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/shivali/.android/build-cache/1489973c664b980684665dcd57fbb66994512c35/output/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-core-ui:26.1.0] /home/shivali/.android/build-cache/dac5e9633560efc237d9c16d6595cc8aad91a966/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.1.0] /home/shivali/.android/build-cache/436cddb728b6eb93a2ce7a79624168b333a1aa1f/output/AndroidManifest.xml:26:9-28:38
+ADDED from [com.android.support:appcompat-v7:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/b54921a506d8765e6439e3cbc77fed8f/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/834af1b61dca0e4f201de686afe1a0f4/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/834af1b61dca0e4f201de686afe1a0f4/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/926d16f3bfddb8b12ca58c89090fa936/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/926d16f3bfddb8b12ca58c89090fa936/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/987e436d0fc841a794d66d00f9dee3fc/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/987e436d0fc841a794d66d00f9dee3fc/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/fc5734cde35cc607840341e160b522e5/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/fc5734cde35cc607840341e160b522e5/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/dc52b3a51e1c1e7a61940f80789c1daf/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/dc52b3a51e1c1e7a61940f80789c1daf/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/ffda422f934495a44edf1db3f680cc92/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/ffda422f934495a44edf1db3f680cc92/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/2e560349ade5e34bcc5b97a7cd7967c7/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/2e560349ade5e34bcc5b97a7cd7967c7/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/e35807587714778c5c16d75d7bab62be/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/e35807587714778c5c16d75d7bab62be/AndroidManifest.xml:26:9-28:38
 	android:value
-		ADDED from [com.android.support:appcompat-v7:26.1.0] /home/shivali/.android/build-cache/4fc556bc855815358a5b1228d9ac3ee4727c5d33/output/AndroidManifest.xml:28:13-35
+		ADDED from [com.android.support:appcompat-v7:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/b54921a506d8765e6439e3cbc77fed8f/AndroidManifest.xml:28:13-35
 	android:name
-		ADDED from [com.android.support:appcompat-v7:26.1.0] /home/shivali/.android/build-cache/4fc556bc855815358a5b1228d9ac3ee4727c5d33/output/AndroidManifest.xml:27:13-51
-meta-data#android.arch.lifecycle.VERSION
-ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/shivali/.android/build-cache/3b5373c82f1c96ada3b1766105ed3bddf1e545ea/output/AndroidManifest.xml:25:9-27:47
+		ADDED from [com.android.support:appcompat-v7:26.1.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/b54921a506d8765e6439e3cbc77fed8f/AndroidManifest.xml:27:13-51
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:17.3.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/245deb43dc8f0b82eeb5833f743485fc/AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:17.3.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/245deb43dc8f0b82eeb5833f743485fc/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:17.3.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/245deb43dc8f0b82eeb5833f743485fc/AndroidManifest.xml:29:13-82
+uses-permission#com.sec.android.provider.badge.permission.READ
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/shivali/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/3ba1f5132b900b4f6bef2636fac45d69/AndroidManifest.xml:19:5-86
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/shivali/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/3ba1f5132b900b4f6bef2636fac45d69/AndroidManifest.xml:19:22-83
+uses-permission#com.sec.android.provider.badge.permission.WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/shivali/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/3ba1f5132b900b4f6bef2636fac45d69/AndroidManifest.xml:20:5-87
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/shivali/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/3ba1f5132b900b4f6bef2636fac45d69/AndroidManifest.xml:20:22-84
+uses-permission#com.htc.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/shivali/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/3ba1f5132b900b4f6bef2636fac45d69/AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/shivali/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/3ba1f5132b900b4f6bef2636fac45d69/AndroidManifest.xml:23:22-78
+uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/shivali/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/3ba1f5132b900b4f6bef2636fac45d69/AndroidManifest.xml:24:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/shivali/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/3ba1f5132b900b4f6bef2636fac45d69/AndroidManifest.xml:24:22-80
+uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/shivali/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/3ba1f5132b900b4f6bef2636fac45d69/AndroidManifest.xml:27:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/shivali/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/3ba1f5132b900b4f6bef2636fac45d69/AndroidManifest.xml:27:22-85
+uses-permission#com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/shivali/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/3ba1f5132b900b4f6bef2636fac45d69/AndroidManifest.xml:28:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/shivali/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/3ba1f5132b900b4f6bef2636fac45d69/AndroidManifest.xml:28:22-89
+uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/shivali/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/3ba1f5132b900b4f6bef2636fac45d69/AndroidManifest.xml:31:5-84
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/shivali/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/3ba1f5132b900b4f6bef2636fac45d69/AndroidManifest.xml:31:22-81
+uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/shivali/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/3ba1f5132b900b4f6bef2636fac45d69/AndroidManifest.xml:34:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/shivali/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/3ba1f5132b900b4f6bef2636fac45d69/AndroidManifest.xml:34:22-80
+uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/shivali/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/3ba1f5132b900b4f6bef2636fac45d69/AndroidManifest.xml:37:5-91
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/shivali/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/3ba1f5132b900b4f6bef2636fac45d69/AndroidManifest.xml:37:22-88
+uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/shivali/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/3ba1f5132b900b4f6bef2636fac45d69/AndroidManifest.xml:38:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/shivali/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/3ba1f5132b900b4f6bef2636fac45d69/AndroidManifest.xml:38:22-89
+uses-permission#com.huawei.android.launcher.permission.WRITE_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/shivali/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/3ba1f5132b900b4f6bef2636fac45d69/AndroidManifest.xml:39:5-93
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/shivali/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/3ba1f5132b900b4f6bef2636fac45d69/AndroidManifest.xml:39:22-90
+uses-permission#android.permission.READ_APP_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/shivali/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/3ba1f5132b900b4f6bef2636fac45d69/AndroidManifest.xml:42:5-73
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/shivali/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/3ba1f5132b900b4f6bef2636fac45d69/AndroidManifest.xml:42:22-70
+uses-permission#com.oppo.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/shivali/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/3ba1f5132b900b4f6bef2636fac45d69/AndroidManifest.xml:45:5-82
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/shivali/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/3ba1f5132b900b4f6bef2636fac45d69/AndroidManifest.xml:45:22-79
+uses-permission#com.oppo.launcher.permission.WRITE_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/shivali/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/3ba1f5132b900b4f6bef2636fac45d69/AndroidManifest.xml:46:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/shivali/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/3ba1f5132b900b4f6bef2636fac45d69/AndroidManifest.xml:46:22-80
+uses-permission#me.everything.badger.permission.BADGE_COUNT_READ
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/shivali/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/3ba1f5132b900b4f6bef2636fac45d69/AndroidManifest.xml:49:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/shivali/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/3ba1f5132b900b4f6bef2636fac45d69/AndroidManifest.xml:49:22-85
+uses-permission#me.everything.badger.permission.BADGE_COUNT_WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/shivali/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/3ba1f5132b900b4f6bef2636fac45d69/AndroidManifest.xml:50:5-89
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.21] /home/shivali/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.21.aar/3ba1f5132b900b4f6bef2636fac45d69/AndroidManifest.xml:50:22-86
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:16.0.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/play-services-gcm-16.0.0.aar/3a76d8213a5cb780021217b330162b08/AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:16.0.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/play-services-iid-16.0.0.aar/2ffebf7f5d822898dea5379bbbdba7fb/AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:16.0.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/play-services-iid-16.0.0.aar/2ffebf7f5d822898dea5379bbbdba7fb/AndroidManifest.xml:23:5-82
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/ce54659f633b59f18fe5de02ab62ff62/AndroidManifest.xml:26:5-82
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/ce54659f633b59f18fe5de02ab62ff62/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:16.0.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/play-services-gcm-16.0.0.aar/3a76d8213a5cb780021217b330162b08/AndroidManifest.xml:23:22-79
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/2b7ac18a5db8d6c4c88c892d809faf40/AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/ce54659f633b59f18fe5de02ab62ff62/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/ce54659f633b59f18fe5de02ab62ff62/AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/ce54659f633b59f18fe5de02ab62ff62/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/2b7ac18a5db8d6c4c88c892d809faf40/AndroidManifest.xml:27:18-89
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/2b7ac18a5db8d6c4c88c892d809faf40/AndroidManifest.xml:28:13-30:85
 	android:value
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/shivali/.android/build-cache/3b5373c82f1c96ada3b1766105ed3bddf1e545ea/output/AndroidManifest.xml:27:13-44
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/2b7ac18a5db8d6c4c88c892d809faf40/AndroidManifest.xml:30:17-82
 	android:name
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/shivali/.android/build-cache/3b5373c82f1c96ada3b1766105ed3bddf1e545ea/output/AndroidManifest.xml:26:13-58
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.2.aar/2b7ac18a5db8d6c4c88c892d809faf40/AndroidManifest.xml:29:17-139
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/6ab889da7bf625ee4575a424a4266ca6/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.2.aar/db481d96a779703207a6c4ef1ac20848/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.2.aar/db481d96a779703207a6c4ef1ac20848/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/6ab889da7bf625ee4575a424a4266ca6/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/6ab889da7bf625ee4575a424a4266ca6/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/6ab889da7bf625ee4575a424a4266ca6/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/6ab889da7bf625ee4575a424a4266ca6/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/6ab889da7bf625ee4575a424a4266ca6/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/6ab889da7bf625ee4575a424a4266ca6/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.2.aar/db481d96a779703207a6c4ef1ac20848/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.2.aar/db481d96a779703207a6c4ef1ac20848/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/6ab889da7bf625ee4575a424a4266ca6/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/6ab889da7bf625ee4575a424a4266ca6/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/6ab889da7bf625ee4575a424a4266ca6/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/6ab889da7bf625ee4575a424a4266ca6/AndroidManifest.xml:35:13-100
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/6ab889da7bf625ee4575a424a4266ca6/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/6ab889da7bf625ee4575a424a4266ca6/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/6ab889da7bf625ee4575a424a4266ca6/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/6ab889da7bf625ee4575a424a4266ca6/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/6ab889da7bf625ee4575a424a4266ca6/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/6ab889da7bf625ee4575a424a4266ca6/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/6ab889da7bf625ee4575a424a4266ca6/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/6ab889da7bf625ee4575a424a4266ca6/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.4.aar/6ab889da7bf625ee4575a424a4266ca6/AndroidManifest.xml:49:13-87
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/ce54659f633b59f18fe5de02ab62ff62/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/ce54659f633b59f18fe5de02ab62ff62/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/ce54659f633b59f18fe5de02ab62ff62/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/ce54659f633b59f18fe5de02ab62ff62/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/ce54659f633b59f18fe5de02ab62ff62/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/ce54659f633b59f18fe5de02ab62ff62/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/ce54659f633b59f18fe5de02ab62ff62/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/ce54659f633b59f18fe5de02ab62ff62/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/ce54659f633b59f18fe5de02ab62ff62/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/ce54659f633b59f18fe5de02ab62ff62/AndroidManifest.xml:42:25-78
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/ce54659f633b59f18fe5de02ab62ff62/AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/ce54659f633b59f18fe5de02ab62ff62/AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/ce54659f633b59f18fe5de02ab62ff62/AndroidManifest.xml:51:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/shivali/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/4c53bd68c63c2a8c78a52633ed0bee5a/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/shivali/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/4c53bd68c63c2a8c78a52633ed0bee5a/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/shivali/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/4c53bd68c63c2a8c78a52633ed0bee5a/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/shivali/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/4c53bd68c63c2a8c78a52633ed0bee5a/AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.3] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/f1c739ce982e70cf12f9ea4c604339a5/AndroidManifest.xml:10:9-14:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/f1c739ce982e70cf12f9ea4c604339a5/AndroidManifest.xml:12:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/f1c739ce982e70cf12f9ea4c604339a5/AndroidManifest.xml:13:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/f1c739ce982e70cf12f9ea4c604339a5/AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /home/shivali/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/f1c739ce982e70cf12f9ea4c604339a5/AndroidManifest.xml:11:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] /home/shivali/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/55307ff04a2efb4e7acc692d37129ead/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /home/shivali/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/55307ff04a2efb4e7acc692d37129ead/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /home/shivali/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/55307ff04a2efb4e7acc692d37129ead/AndroidManifest.xml:24:13-58
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-IMPLIED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+IMPLIED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:1:1-39:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+IMPLIED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:1:1-39:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
+IMPLIED from /home/shivali/Documents/task/android/app/src/main/AndroidManifest.xml:1:1-39:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/4c7cf9aa0e64867e897a36691ecd3890/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/4c7cf9aa0e64867e897a36691ecd3890/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/shivali/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/4c7cf9aa0e64867e897a36691ecd3890/AndroidManifest.xml:26:13-58

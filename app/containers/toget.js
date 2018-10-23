@@ -13,6 +13,7 @@ import {
 const Dimensions = require('Dimensions');
 import styles from '../../style/containers/todo';
 const data =[]
+import { url } from '../../style/base';
 import GridView from "react-native-easy-grid-view";
 var ds = new GridView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
 import CountDown from 'react-native-countdown-component';
@@ -41,7 +42,7 @@ export default class Toget extends Component<Props> {
      AsyncStorage.getItem('email',(err, result) => {
          if(result != undefined){
            this.setState({email :result})
-           var basepath = 'http://192.168.43.31:3000/task/'+result
+           var basepath = url.staging + 'task/'+result
            fetch(basepath, {
              timeout:60000,
              method: "GET",
@@ -141,15 +142,13 @@ export default class Toget extends Component<Props> {
           source={require('../images/background.jpg')}
           style={styles.container}>
           {(this.state.copyData.length>0) &&
-
           <GridView dataSource={this.state.dataSource}
-                      spacing={10}
+                      spacing={6}
+                      style={{flex:1,marginTop:60,marginBottom:60}}
                       enableEmptySections={true}
-                      style={{padding:1}}
                       renderCell={this._renderCell.bind(this)}
 
             />
-
           }
     </ImageBackground>
     );
